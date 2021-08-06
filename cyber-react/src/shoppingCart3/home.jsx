@@ -60,7 +60,6 @@ class Home extends Component {
 
   increaseQuantity = (id) => {
     const cloneCart = [...this.state.cart];
-
     // kiiểm tra sản phẩm đã tồn tại trong giỏ hàng chưa
     const foundIndex = cloneCart.findIndex((item) => {
       return item.product.id === id;

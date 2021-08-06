@@ -1,4 +1,6 @@
 import Home from './DressingRoom/Home'
+// import Todo from './DemoLifeCycle/Todo';
+// import Home from './shoppingCart3/home';
 
 function App() {
   return (
@@ -8,8 +10,9 @@ function App() {
       {/* <Car /> */}
       {/* <Movie /> */}
       {/* <StudentList /> */}
+      {/* <Home /> */}
+      {/* <Todo /> */}
       <Home />
-
     </div>
   );
 }

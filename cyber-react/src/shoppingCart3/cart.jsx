@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 class Cart extends Component {
+
+
+
+
   renderCart = () => {
     return this.props.cart.map((item) => {
       // cart = [{ product: {}, quantity: 1 }];
